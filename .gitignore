@@ -1,0 +1,42 @@
+# Data
+data/raw/
+data/processed/*.npy
+data/processed/*.pkl
+*.tar.gz
+*.zip
+
+# Models
+models/checkpoints/*.pth
+models/checkpoints/*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+results/logs/*.log
+wandb/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
